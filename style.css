@@ -44,15 +44,19 @@ nav{
     nav{
         padding: .2rem .5rem;
     }
+
     .nav__title a{
-        padding: 0 .3rem;
+        background-color: #344560;
+        padding: 4px 8px;
+        border-radius: 4px;
         font-size: .5rem;
+        color: #fff;
     }
     .logo span{
-        font-size: 1.1rem;
+        font-size: 1.5rem;
     }
     .logo img{
-        width: 20px;
+        width: 25px;
     }
     .caro{
         height: 40vh;
@@ -65,11 +69,11 @@ nav{
         object-fit: cover;
     }
     .right_container{
-        margin-top: 13rem;
-        padding: 0 90px;
+        margin-top: 10rem;
+        padding: 0 40px;
     }
     .head__title h1{
-        font-size: 2rem;
+        font-size: 3rem;
         font-weight: 900;
     }
   }
