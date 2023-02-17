@@ -94,23 +94,25 @@ form input{
 .trust__title h3 span{
     color: rgb(247, 247, 36);
 }
-.trust__title p{
+.trust__title p, .container__2 p{
     font-size: .8rem;
 }
 .container__1{
     color: #fff;
     background-color: #617dc6;
 }
-.container__1 h3{
+.container__1 h3,.container__2 h3{
     font-size: 1.3rem;
     margin: 10px;
 }
-.container__1 h3 span{
+.container__1 h3 span, .container__2 h3 span{
     color: rgb(247, 247, 36);;
 }
-
-
-
+.container__2{
+    background-color: #06828c;
+    color: #fff;
+    padding: 20px;
+}
 
 /* !========================================================================= */
 @media only screen and (max-width: 1000px) {
