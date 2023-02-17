@@ -2,6 +2,9 @@
 *{
     /* font-family: 'Montserrat', sans-serif; */
 }
+header{
+    height: 40vh;
+}
 .caro{
     position: fixed;
     top: 0;
@@ -36,8 +39,17 @@ nav{
     font-weight: bold;
     font-family: 'Pinyon Script', cursive;
 }
-
-
+/* !========================================================================= */
+#payment{
+    text-align: center;
+    padding: 20px;
+    background-color: #344560;
+    color: #fff;
+}
+.tittle__active span{
+    color: rgb(247, 247, 41);
+    font-size: 2rem;
+}
 
 
 @media only screen and (max-width: 1000px) {
