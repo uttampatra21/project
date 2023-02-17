@@ -149,6 +149,11 @@ form input{
         font-size: 3rem;
         font-weight: 900;
     }
+
+.trans__id form{
+    padding: 0 25px;
+}
+
     .container__1{
         padding: 15px;
     }
