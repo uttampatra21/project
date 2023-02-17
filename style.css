@@ -119,10 +119,10 @@ form input{
     }
 
     .nav__title a{
-        background-color: #344560;
+        background-color: #1a5f78;
         padding: 4px 8px;
         border-radius: 4px;
-        font-size: .6rem;
+        font-size: .8rem;
         color: #fff;
     }
     .logo span{
