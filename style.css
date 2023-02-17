@@ -30,13 +30,14 @@ nav{
     font-weight: 500;
     color: #000;
 }
-
 .head__title h1{
     text-align: center;
     color: #fff;
     font-weight: bold;
     font-family: 'Pinyon Script', cursive;
 }
+
+
 
 
 @media only screen and (max-width: 1000px) {
@@ -48,5 +49,23 @@ nav{
     }
     .logo img{
         width: 20px;
+    }
+    .caro{
+        height: 40vh;
+    }
+    .carousel-fade, .carousel-inner{
+        height: 100%;
+    }
+    .carousel-item img{
+        height: 40vh !important;
+        object-fit: cover;
+    }
+    .right_container{
+        margin-top: 13rem;
+        padding: 0 30%;
+    }
+    .nav__title a{
+        padding: 0 .3rem;
+        font-size: .5rem;
     }
   }
