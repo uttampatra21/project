@@ -50,6 +50,28 @@ nav{
     color: rgb(247, 247, 41);
     font-size: 2rem;
 }
+.payment__img{
+    margin: 20px 0;
+}
+.trans__id form{ 
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+
+}
+form input{
+    border: none;
+    outline: none;
+    padding: 5px;
+    border-radius: 2px;
+}
+.submit{
+    background-color: #1a5f78;
+    color: #fff;
+}
+.note{
+    margin: 20px 10px;
+}
 
 
 @media only screen and (max-width: 1000px) {
@@ -61,14 +83,14 @@ nav{
         background-color: #344560;
         padding: 4px 8px;
         border-radius: 4px;
-        font-size: .5rem;
+        font-size: .6rem;
         color: #fff;
     }
     .logo span{
-        font-size: 1.5rem;
+        font-size: 1.8rem;
     }
     .logo img{
-        width: 25px;
+        width: 30px;
     }
     .caro{
         height: 40vh;

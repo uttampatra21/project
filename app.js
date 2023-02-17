@@ -4,3 +4,8 @@ var typed = new Typed('.element', {
     backSpeed: 30,
     loop: true,
   });
+
+  const link = document.querySelector('.submit');
+  link.addEventListener('click',()=>{
+    location.reload();
+  })
