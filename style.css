@@ -2,6 +2,9 @@
 *{
     /* font-family: 'Montserrat', sans-serif; */
 }
+html{
+    scroll-behavior: smooth;
+}
 header{
     height: 40vh;
 }
@@ -74,6 +77,25 @@ form input{
 }
 
 
+/* !========================================================================= */
+.trust{
+    text-align: center;
+}
+.containers__{
+    color: #fff;
+    background-color: #1a5f78;
+    padding: 20px;
+}
+.trust__title{
+    margin: 20px 0;
+}
+.trust__title h3 span{
+    color: rgb(247, 247, 36);
+}
+.trust__title p{
+    font-size: .8rem;
+}
+/* !========================================================================= */
 @media only screen and (max-width: 1000px) {
     nav{
         padding: .2rem .5rem;
