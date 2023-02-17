@@ -75,7 +75,9 @@ form input{
 .note{
     margin: 20px 10px;
 }
+.container__1{
 
+}
 
 /* !========================================================================= */
 .trust{
@@ -95,6 +97,21 @@ form input{
 .trust__title p{
     font-size: .8rem;
 }
+.container__1{
+    color: #fff;
+    background-color: #617dc6;
+}
+.container__1 h3{
+    font-size: 1.3rem;
+    margin: 10px;
+}
+.container__1 h3 span{
+    color: rgb(247, 247, 36);;
+}
+
+
+
+
 /* !========================================================================= */
 @media only screen and (max-width: 1000px) {
     nav{
@@ -131,5 +148,8 @@ form input{
     .head__title h1{
         font-size: 3rem;
         font-weight: 900;
+    }
+    .container__1{
+        padding: 15px;
     }
   }
