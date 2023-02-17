@@ -44,6 +44,10 @@ nav{
     nav{
         padding: .2rem .5rem;
     }
+    .nav__title a{
+        padding: 0 .3rem;
+        font-size: .5rem;
+    }
     .logo span{
         font-size: 1.1rem;
     }
@@ -62,10 +66,10 @@ nav{
     }
     .right_container{
         margin-top: 13rem;
-        padding: 0 30%;
+        padding: 0 90px;
     }
-    .nav__title a{
-        padding: 0 .3rem;
-        font-size: .5rem;
+    .head__title h1{
+        font-size: 2rem;
+        font-weight: 900;
     }
   }
