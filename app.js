@@ -4,34 +4,29 @@ var typed = new Typed('.element', {
     backSpeed: 30,
     loop: true,
   });
+
 // ! =========================================
+
   const link = document.querySelector('.submit');
   link.addEventListener('click',()=>{
     location.reload();
   })
+
 //! =========================================
-const alertBox = document.querySelectorAll('.payment__alert');
+const alertBox = document.querySelector('.payment__alert');
+const parTner = document.querySelectorAll('.partner_info');
 const close = document.querySelectorAll('.services__model-close');
-const partner = document.querySelectorAll('.partner_info');
 
+let model = function(alert){
+  alertBox[alert].classList.add('active');
+}
 
-partner.forEach((i)=>{
-  i.addEventListener('click',()=>{
-    alert("Join our premium")
-  })
-})
+parTner.forEach((pt, i)=>{
+  pt.addEventListener('click', () =>{
+      model(i);
+  });
+});
 
-
-
-// const model = (alertClick) =>{
-//   alertBox[alertClick].classList.add('active');
-// }
-
-// modelBtn.forEach((mb, i)=>{
-//   mb.addEventListener('click', () =>{
-//       model(i);
-//   });
-// });
 
 close.forEach((i)=>{
   i.addEventListener('click', () =>{
@@ -40,6 +35,10 @@ close.forEach((i)=>{
       });
   }); 
 });
+
+
+
+
 
 
 // ! =================================================================

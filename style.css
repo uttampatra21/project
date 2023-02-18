@@ -198,9 +198,10 @@ form input{
 }
 /* !============= actiive  */
 .active{
-    /* visibility: hidden; */
-    /* opacity: 0 */
+    visibility: hidden;
+    opacity: 0;
 }
+/* !============= actiive  */
 .payment__info-box{
     position: relative;
     background-color:  #0b111e;
@@ -210,7 +211,6 @@ form input{
 .box__payment_title{
     text-align: center;
 }
-
 .bx-check{
     font-size: 1.5rem;
 }
@@ -222,7 +222,6 @@ form input{
     display: flex;
     gap: .5rem;
 }
-
 .services__model-close{
     position: absolute;
     top: 1rem;
@@ -230,6 +229,38 @@ form input{
     font-size: 1.8rem;
     color: red;
 }
+.membership{
+    margin-top: 3rem;
+    text-align: center;
+}
+.membership a{
+    padding: .8rem;
+    background-color: #06828c;
+    color: #fff;
+    border-radius: .4rem;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+/* !========================================================================= */
+footer{
+    text-align: center;
+    padding: 2rem;
+    background-color: #06828c;
+    color: #fff;
+}
+footer h4{
+    margin: 1rem;
+}
+footer p{
+    margin: 1rem;
+}
+.media a i{
+    color: #fff;
+    font-size: 1.8rem;
+    padding: 0 .5rem;
+}
+
 /* !========================================================================= */
 @media only screen and (max-width: 1000px) {
     nav{
