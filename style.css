@@ -4,6 +4,7 @@
 }
 html{
     scroll-behavior: smooth;
+    transition: .6s;
 }
 header{
     height: 40vh;
@@ -148,6 +149,7 @@ form input{
     display: flex;
     overflow-y: scroll;
     gap: 1rem;
+    cursor: pointer;
 }
 .partner_info img{
     border-top-right-radius: 1rem;
@@ -165,6 +167,9 @@ form input{
     flex-direction: column;
     justify-content: center;
 }
+.info a{
+    text-decoration: none;
+}
 .info p{
     color: #fff;
 }
@@ -178,6 +183,53 @@ form input{
 }
 
 
+/* !========================================================================= */
+.payment__alert{
+    position: fixed;
+    inset: 0;
+    background-color: #1a2743;
+    color: #fff;
+    padding: 2rem 1rem;
+    display: grid;
+    place-items: center;
+    /* visibility: hidden;
+    opacity: 0; */
+    transition: .6s;
+}
+/* !============= actiive  */
+.active{
+    /* visibility: hidden; */
+    /* opacity: 0 */
+}
+.payment__info-box{
+    position: relative;
+    background-color:  #0b111e;
+    padding: 4.5rem 1.5rem 2.5rem;
+    border-radius: 1.5rem;
+}
+.box__payment_title{
+    text-align: center;
+}
+
+.bx-check{
+    font-size: 1.5rem;
+}
+.services__offers{
+    text-align: start;
+    margin-top: 2rem;
+}
+.services__offers p{
+    display: flex;
+    gap: .5rem;
+}
+
+.services__model-close{
+    position: absolute;
+    top: 1rem;
+    right: 1rem;
+    font-size: 1.8rem;
+    color: red;
+}
 /* !========================================================================= */
 @media only screen and (max-width: 1000px) {
     nav{
