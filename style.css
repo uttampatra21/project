@@ -121,8 +121,9 @@ form input{
     padding: 20px;
 }
 .relationship_container{
-    /* display: flex; */
-    flex-wrap: wrap;
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
 }
 .relation_box {
     display: flex;
@@ -130,6 +131,7 @@ form input{
     align-items: center;
     justify-content: center;
 }
+
 
 /* !========================================================================= */
 @media only screen and (max-width: 1000px) {
