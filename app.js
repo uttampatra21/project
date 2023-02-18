@@ -10,7 +10,7 @@ var typed = new Typed('.element', {
     location.reload();
   })
 //! =========================================
-const alertBox = document.querySelector('.payment__alert');
+const alertBox = document.querySelectorAll('.payment__alert');
 const close = document.querySelectorAll('.services__model-close');
 const partner = document.querySelectorAll('.partner_info');
 
@@ -27,8 +27,8 @@ const partner = document.querySelectorAll('.partner_info');
 
 close.forEach((i)=>{
   i.addEventListener('click', () =>{
-    alertBox.forEach((mv)=>{
-          mv.classList.remove('active');
+    alertBox.forEach((i)=>{
+          i.style.display = 'none';
       });
   }); 
 });
