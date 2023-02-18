@@ -15,6 +15,14 @@ const close = document.querySelectorAll('.services__model-close');
 const partner = document.querySelectorAll('.partner_info');
 
 
+partner.forEach((i)=>{
+  i.addEventListener('click',()=>{
+    alert("Join our premium")
+  })
+})
+
+
+
 // const model = (alertClick) =>{
 //   alertBox[alertClick].classList.add('active');
 // }
@@ -32,6 +40,7 @@ close.forEach((i)=>{
       });
   }); 
 });
+
 
 // ! =================================================================
 
