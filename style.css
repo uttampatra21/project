@@ -286,7 +286,7 @@ footer p{
     .carousel-fade, .carousel-inner{
         height: 100%;
     }
-    .carousel-item img{
+        .caro img{
         height: 40vh !important;
         object-fit: cover;
     }
