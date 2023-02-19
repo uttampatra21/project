@@ -11,7 +11,7 @@ var typed = new Typed('.element', {
 
 //! =========================================
 
-const link = document.querySelector('.submit');
-link.addEventListener('click',()=>{
-  location.reload();
+const relode = document.querySelectorAll('#relode');
+relode.addEventListener('click',()=>{
+  alert("Please Join Membership");
 });
