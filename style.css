@@ -306,8 +306,8 @@ footer p{
     }
 
     .nav__title a{
-        background-color: hsl(196, 64%, 29%);
-        padding: 5px 10px;
+        background-color: #de085a;
+        padding: 6px 12px;
         border-radius: 4px;
         font-size: 1rem;
         color: hsl(0, 0%, 100%);
