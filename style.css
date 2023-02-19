@@ -164,6 +164,9 @@ form input{
     gap: 1rem;
     cursor: pointer;
 }
+.partner_box::-webkit-scrollbar{
+    display: none;
+}
 .partner_info img{
     border-top-right-radius: 1rem;
     border-top-left-radius: 1rem;
