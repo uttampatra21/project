@@ -1,7 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;700&family=Open+Sans&family=Pacifico&family=Pinyon+Script&family=Poppins:wght@400;500&display=swap');
-*{
-    /* font-family: 'Montserrat', sans-serif; */
-}
+
 html{
     scroll-behavior: smooth;
     transition: .6s;
@@ -88,9 +86,6 @@ form input{
 .note{
     margin: 20px 10px;
 }
-.container__1{
-
-}
 
 /* !========================================================================= */
 .trust{
@@ -135,7 +130,6 @@ form input{
 }
 .relationship_container{
     display: flex;
-    flex-direction: ;
     gap: 1.5rem;
 }
 .relation_box {
@@ -154,9 +148,6 @@ form input{
     overflow-y: scroll;
     gap: 1rem;
     cursor: pointer;
-}
-.partner_box::-webkit-scrollbar{
-    display: none;
 }
 .partner_info img{
     border-top-right-radius: 1rem;
@@ -189,7 +180,6 @@ form input{
     align-items: center;
 }
 
-
 /* !========================================================================= */
 .payment__alert{
     position: fixed;
@@ -199,14 +189,13 @@ form input{
     padding: 2rem 1rem;
     display: grid;
     place-items: center;
-    visibility: hidden;
     opacity: 0;
     transition: .6s;
 }
 /* !============= actiive  */
 .active{
-    visibility: hidden;
-    opacity: 0;
+    /* visibility: hidden; */
+    opacity: 1;
 }
 /* !============= actiive  */
 .payment__info-box{
