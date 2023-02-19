@@ -181,6 +181,7 @@ form input{
     display: flex;
     flex-direction: column;
     justify-content: center;
+    user-select: none;
 }
 .info a{
     text-decoration: none;
@@ -253,7 +254,9 @@ form input{
     color: #fff;
     border-radius: .4rem;
     text-decoration: none;
-    font-weight: 500;
+    font-weight: 600;
+    font-size: 1.2rem;
+    font-family: sans-serif;
 }
 
 /* !========================================================================= */
@@ -324,9 +327,10 @@ footer p{
     .carousel-fade, .carousel-inner{
         height: 100%;
     }
-        .caro img{
+    .caro img{
         height: 40vh !important;
         object-fit: cover;
+        display: block;
     }
     .right_container{
         padding: 0 40px;
