@@ -7,9 +7,11 @@ var typed = new Typed('.element', {
 
 // ! =========================================
 
-  const link = document.querySelector('.submit');
-  link.addEventListener('click',()=>{
-    location.reload();
-  })
+
 
 //! =========================================
+
+const link = document.querySelector('.submit');
+link.addEventListener('click',()=>{
+  location.reload();
+});
