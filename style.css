@@ -212,8 +212,8 @@ form input{
 }
 /* !============= actiive  */
 .active{
-    visibility: initial;
-    opacity: 1;
+    visibility: inherit;
+    opacity: 999;
 }
 /* !============= actiive  */
 .payment__info-box{

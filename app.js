@@ -12,6 +12,10 @@
 
   boxs.forEach((i)=>{
     i.addEventListener('click',()=>{
-      alert("Active your account First");
+      main.classList.add("active");
     })
   })
+
+  close.addEventListener('click',()=>{
+    main.classList.remove("active");
+  });
