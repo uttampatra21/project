@@ -1,5 +1,4 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;700&family=Open+Sans&family=Pacifico&family=Pinyon+Script&family=Poppins:wght@400;500&display=swap');
-
 html{
     scroll-behavior: smooth;
     transition: .6s;
@@ -104,7 +103,6 @@ form input{
 .note{
     margin: 20px 10px;
 }
-
 /* !========================================================================= */
 .trust{
     text-align: center;
@@ -196,8 +194,8 @@ form input{
     gap: .4rem;
     justify-content: center;
     align-items: center;
+    font-weight: 500;
 }
-
 /* !========================================================================= */
 .payment__alert{
     position: fixed;
@@ -258,7 +256,6 @@ form input{
     font-size: 1.2rem;
     font-family: sans-serif;
 }
-
 /* !========================================================================= */
 .quality__singles{
     text-align: center;
@@ -282,7 +279,6 @@ form input{
     border-radius: .5rem;
     font-weight: 500;
 }
-
 /* !========================================================================= */
 footer{
     text-align: center;
@@ -301,13 +297,11 @@ footer p{
     font-size: 1.8rem;
     padding: 0 .5rem;
 }
-
 /* !========================================================================= */
 @media only screen and (max-width: 1000px) {
     nav{
         padding: .2rem .5rem;
     }
-
     .nav__title a{
         background-color: #de085a;
         padding: 6px 12px;
@@ -343,9 +337,8 @@ footer p{
     .container__1{
         padding: 15px;
     }
-
-.relationship_container{
-    flex-direction: column;
-}
+    .relationship_container{
+        flex-direction: column;
+    }
 
   }
